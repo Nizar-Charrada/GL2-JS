@@ -1,0 +1,17 @@
+.container {
+  margin-top: 5%;
+  margin-left: 5%;
+  float: left;
+}
+
+.inputbox {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.newitem {
+  margin: 50px;
+}

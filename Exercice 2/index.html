@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Test</h1>
+    <br />
+    <input type="color" name="1" id="color" onchange="color()" />
+    <input type="number" name="2" id="size" onchange="sizee()" />
+    <label for="font">Police </label>
+    <select name="font" id="font" onclick="changefont()">
+      <option value="Garamond">Garamond</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Times New Roman">Times New Roman</option>
+    </select>
+    <br />
+    <br />
+
+    <div>
+      <label for="left">Left</label>
+
+      <input id="left" type="radio" name="align" />
+
+      <label for="center">Center</label>
+      <input id="center" type="radio" name="align" />
+
+      <label for="right">Right</label>
+      <input id="right" type="radio" name="align" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
